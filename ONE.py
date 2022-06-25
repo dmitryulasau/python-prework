@@ -98,5 +98,5 @@ def is_consecutive(a_list):
     # (new_list)
     return list_sorted == new_list
 
-print(is_consecutive([2,3,4,5,6,7]))
-print(is_consecutive([1,2,4,5]))
+print(is_consecutive([2,3,4,5,6,7])) # -> True
+print(is_consecutive([1,2,4,5])) # -> False
